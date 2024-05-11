@@ -1,0 +1,32 @@
+{
+    "items":[
+        {
+            "name":"row-1",
+            "video":["https://server.ugcstocks.com/videos/660d9a65e4a96-link-high.mp4","https://server.ugcstocks.com/videos/660d8f748bb69-link-high.mp4"]
+        },
+        {
+            "name":"row-2",
+            "video":["https://server.ugcstocks.com/videos/660c81c10cc8b-link-high.mp4","https://server.ugcstocks.com/videos/660c8c1f1070f-link-high.mp4"]
+        },
+        {
+            "name":"row-3",
+            "video":["https://res.cloudinary.com/du73if3k3/video/upload/v1708639022/qjihwkzhnyoqcxkxoduc.mp4","https://server.ugcstocks.com/videos/660d8a68c5cf2-link-high.mp4"]
+        },
+        {
+            "name":"row-4",
+            "video":["https://server.ugcstocks.com/videos/660c8873ba3b8-link-high.mp4"]
+        },
+        {
+            "name":"row-5",
+            "video":["https://res.cloudinary.com/du73if3k3/video/upload/v1708638516/cjyi9uucskbo2d5zf7oh.mp4","https://res.cloudinary.com/du73if3k3/video/upload/v1708483142/fahmgdwqvancdrycw3ta.mp4"]
+        },
+        {
+            "name":"row-6",
+            "video":["https://server.ugcstocks.com/videos/660da5ea8c106-link-high.mp4","https://server.ugcstocks.com/videos/660c8ade6765c-link-high.mp4"]
+        },
+        {
+            "name":"row-7",
+            "video":["https://server.ugcstocks.com/videos/660da76c539bd-link-high.mp4","https://server.ugcstocks.com/videos/660dae5cb419e-link-high.mp4","https://server.ugcstocks.com/videos/660db08f7f7b2-link-high.mp4"]
+        }
+    ]
+}

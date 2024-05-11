@@ -1,0 +1,369 @@
+/* my new style */
+select.form-select {
+    padding: 18px 20px;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+}
+
+/* End */
+body {
+    background: #FFF6E5;
+}
+.desktop-dashboard-header{
+    overflow: hidden !important;
+}
+.side-bar .row,
+.side-bar .container,
+.side-bar .container-fluid,
+.side-bar .col,.side-bar .navbar , .side-bar .col-3, .side-bar .col-6, .side-bar .col-4, .side-bar .col-2, .side-bar .col-8{
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Seasons';
+    src: url(../public/assets/fonts/demo_fonts/Fontspring-DEMO-theseasons-reg.otf);
+}
+@font-face {
+    font-family: 'Gowun-Batang';
+    src: url(../public/assets/fonts/gowun_batang/GowunBatang-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../public/assets/fonts/poppins/Poppins-Regular.ttf);
+}
+
+
+/* dashboard start  */
+
+.sb-block-1{
+    max-height: 100vh;
+    height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 15px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 0px 30px 0px rgba(253,157,107,0.5) inset;
+}
+
+.sb-block-1 .logo img{
+    width: 70%;
+}
+.hover-buttons a{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: unset;
+}
+.sb-block-1 .nav-pills .nav-link{
+    color: #000;
+font-family: "Seasons";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+text-transform: capitalize;
+cursor: pointer;
+}
+
+.sb-block-1 .nav-pills .nav-link.active{
+    background-color: rgba(253,157,107) ;
+}
+
+.sb-block-1 a.nav-link.active svg {
+    fill: #fff !important;
+}
+
+.sb-block-2 {
+    padding: 15px;
+}
+
+.sb-block-2 .input-group {
+    width: 80% !important;
+    margin: auto;
+    gap: 16px;
+    z-index: 5;
+    margin-bottom: 35px !important;
+
+}
+
+.sb-block-2 .input-group .form-control {
+    border-radius: 100px !important;
+    border: 1px solid rgba(0, 0, 0, 0.40) !important;
+    background: #FFF !important;
+    color: rgba(0, 0, 0);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    /* 0% */
+    text-transform: capitalize;
+    padding: 13px 40.25px;
+}
+
+
+.sb-block-2 .input-group .form-control::placeholder {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    /* 0% */
+    text-transform: capitalize;
+}
+
+.sb-block-2 .input-group .form-control:focus {
+    box-shadow: none;
+}
+
+.sb-block-2 .input-group .btn {
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+    /* 0% */
+    text-transform: uppercase;
+    border-radius: 100px !important;
+    border: 1px solid #000;
+    background: #E4FEF8;
+    /* padding: 28px 35.5px; */
+    height: 50px;
+    width: 129px;
+}
+.sb-block-2 .nav-pills{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sb-block-2 .nav-pills .nav-item:nth-child(even) .nav-link{
+    background: #ffe5e9 ;
+}
+.sb-block-2 .nav-pills .nav-item:nth-child(odd) .nav-link{
+    background: #e4fef8;
+}
+.sb-block-2 .nav-pills .nav-item:nth-child(3n+1) .nav-link{
+    background: #f1fb83;
+}
+
+.sb-block-2 .nav-pills .nav-link{
+    border: 1px solid #000;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 12px 30px;
+    text-align: center;
+    color: #000;
+}
+
+.sb-block-2 .nav-pills .nav-link.active{
+    background-color: rgba(253,157,107,0.75) !important ;
+}
+
+.tab-pane.active{
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+.tab-pane .v-box {
+    width: 100%;
+    height: 30rem;
+    position: relative;
+    overflow: hidden;
+}
+.tab-pane .v-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+
+}
+.v-box:hover .hover-buttons{
+    display: flex;
+
+}
+.nt-found{
+    color: #000;
+    font-family: "Seasons";
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 100%;
+}
+.v-box .hover-buttons {
+
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    row-gap: 30px;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+    display: none;
+    background-color: rgba(253,157,107,0.75);
+    border-radius: 98px;
+
+}
+
+.v-box .hover-buttons button{
+    border: 1px solid #000;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    /* padding: 12px 30px; */
+    text-align: center;
+    color: #000;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.v-box .hover-buttons .hb-1{
+    background-color: #ffe5e9 ;
+}
+
+.v-box .hover-buttons .hb-2{
+    background-color: #e4fef8 ;
+}
+/* dashboard end  */
+
+
+
+
+@media (max-width:676px) {
+
+    .sb-block-2 .nav-pills .nav-link{
+        font-size: 12px;
+        padding:7px 18px;
+    }
+    img.video_thumb{
+        border-radius: 60px !important;
+        /* width: 48%;
+        height: 100%; */
+    }
+    .tab-pane .v-box{
+        height:287px !important;
+        width: 48% !important;
+    }
+    .tab-pane.active{
+        display: flex !important;
+        grid-template-columns:unset !important;
+        grid-column-gap:unset !important;
+        grid-template-rows:unset !important;
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+    }
+    .v-box .hover-buttons{
+        border-radius: 60px !important;
+    }
+    .v-box .hover-buttons button{
+        width: 120px !important;
+        font-size: 10px !important;
+    }
+/* dashboard start  */
+.desktop-dashboard-header {
+    display: none !important;
+  }
+  .mobile-dashboard-header{
+    display: block;
+  }
+  .mian-div{
+    padding: 0 !important;
+  }
+  .mh-block-1 .logo img{
+    width: 100%;
+  }
+  .menu-bar-btn {
+    text-align: end;
+    border: none;
+    background: none;
+  }
+  .mobile-dashboard-header {
+    padding: 16.5px 20px !important;
+    border-bottom: 1px solid #000;
+  }
+  
+  .menu-bar-btn svg{
+    width: 2em;
+    height: 2em;
+  }
+  
+  .offcanvas .logo img {
+    width: 75% !important;
+  }
+  .offcanvas {
+    width: 75%;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    box-shadow: 0px 0px 30px 0px rgba(253,157,107,0.5) inset;   
+    background-color: #FFF6E5;
+    overflow: unset !important;
+  }
+  .modal-backdrop{
+    background-color: #FFF6E5;
+
+  }
+
+  .offcanvas .nav-pills .nav-link{
+    color: #000;
+font-family: "Seasons";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+text-transform: capitalize;
+}
+
+.offcanvas .nav-pills .nav-link.active{
+    background-color: rgba(253,157,107) ;
+}
+
+.offcanvas a.nav-link.active svg {
+    fill: #fff !important;
+}
+.tab-pane.active {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.sb-block-2 .input-group {
+    width: auto !important;
+    margin: auto;
+    gap: 8px;
+    padding: 0px;
+  
+  }
+  .sb-block-2 .input-group .form-control {
+    font-size: 14px;
+    padding: 13px 20.25px;
+  }
+  
+  .sb-block-2 .input-group .btn {
+      font-size: 14px;
+      padding: 14px 18px;
+  }
+  .col-sm-9{
+    width: 100% !important;
+  }
+  .tab-pane .v-box {
+    height: 30rem;
+  }
+}
